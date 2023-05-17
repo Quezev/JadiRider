@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="15dp"
+    android:background="@color/black"
+    >
+    <TextView
+        android:id="@+id/nsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama data"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#FFFF"
+        android:layout_marginLeft="10dp"/>
+    <ImageView
+        android:id="@+id/imgsi"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@+id/nsi"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/ic_launcher_background" />
+    <TextView
+        android:id="@+id/dsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Deskripsi"
+        android:textColor="#FFFF"
+        android:textSize="20sp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/imgsi"
+        android:layout_marginTop="60dp"/>
+
+
+</RelativeLayout>
